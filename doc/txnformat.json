@@ -3,20 +3,13 @@
     "txn": {
         "n": "nonce",
         "u": "abcdef",
-        "s": {
-            "x.y.z": [
+        "s": [
+            [
+                "x.y.z",
                 "abcdef",
                 "fedcba"
-            ],
-            "x.y.n": [
-                "abcdef",
-                "fedcba"
-            ],
-            "x.y._acccess": [
-                "",
-                ""
             ]
-        },
+        ],
         "t": 1234567
     },
     "s": "abcdef"
