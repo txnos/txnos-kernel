@@ -1,16 +1,12 @@
 {
     "ver": 1,
     "txn": {
-        "n": "nonce",
         "u": "abcdef",
         "s": [
-            [
-                "x.y.z",
-                "abcdef",
-                "fedcba"
-            ]
-        ],
-        "t": 1234567
+            "/x/y/z",
+            "0xabcdef",
+            "fedcba"
+        ]
     },
     "s": "abcdef"
 }
