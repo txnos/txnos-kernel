@@ -1,12 +1,12 @@
 {
     "ver": 1,
     "txn": {
-        "u": "abcdef",
-        "s": [
-            "/x/y/z",
-            "0xabcdef",
-            "fedcba"
-        ]
+        "from": "abcdef",
+        "st": {
+            "obj": "/x/y/z",
+            "chash": "0xabcdef",
+            "nvalue": "fedcba"
+        }
     },
-    "s": "abcdef"
+    "sig": "abcdef"
 }
