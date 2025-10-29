@@ -24,7 +24,7 @@ struct TxRequest {
 }
 
 async fn index(txrequest: web::Json<TxRequest>) -> Result<String> {
-    println!("Index hit...");
+    println!("Index hit. Data: {}", txrequest.txn.st.nvalue);
     Ok(format!("Your jawn: {}", txrequest.ver))
 }
 
